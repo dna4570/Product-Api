@@ -1,0 +1,24 @@
+# Build 出力
+bin/
+obj/
+
+# IDE 関連
+.vs/
+.idea/
+*.user
+*.suo
+
+# OS 一時ファイル
+.DS_Store
+Thumbs.db
+
+# ログ
+*.log
+
+# EF Core SQLite ジャーナル
+*.db-shm
+*.db-wal
+
+# Node (フロントエンド用に同居する場合)
+node_modules/
+dist/
